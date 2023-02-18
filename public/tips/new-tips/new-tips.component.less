@@ -1,0 +1,72 @@
+@import '../../../shared/lib-styles/variables.less';
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  flex-flow: column;
+  width: 60%;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: @font;
+  padding-left: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 0px 3px 1px @title;
+}
+
+h1{
+  background-color: @title;
+  color: @font;
+  text-align: center;
+}
+
+input{
+  background-color: @font;
+  color:@title;
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-bottom: 3px solid @hover;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  outline: 0px;
+}
+
+
+label{
+  display: block;
+  float: center;
+  color:@title;
+  text-transform: uppercase;
+}
+
+textarea{
+  background-color: @font;
+  color:@title;
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-bottom: 3px solid @hover;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  outline: 0px;
+}
+
+.button{
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color:red;
+  border-color: red;
+  border-style: solid;
+  border-radius: 10px;
+  width: 80%;
+  cursor: pointer;
+}

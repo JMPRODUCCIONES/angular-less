@@ -1,0 +1,57 @@
+@import '../../../../shared/lib-styles/variables.less';
+
+#vision {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  background:@background;
+  background-size: cover;
+  max-height: auto;
+  background-repeat: no-repeat;
+  color: @title;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+    @media (max-width: 1200px){
+      #vision{ 
+      display: flex;
+       flex-direction: column;
+     }
+    }
+
+.img img {
+  width: 100%;}
+  @media (max-width: 1200px){
+    #vision{ 
+    max-width: 100%;
+    max-height: auto;
+   }
+  }
+
+.text{
+  width:30%;
+  max-height: auto;
+  background-color: @font;
+}
+  @media (max-width: 1200px){
+   .text{ 
+     width: 100%;
+   }
+  }
+
+.text h2{
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  padding: 0px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+
+
+}
+
+.text p{
+  text-justify: newspaper;
+  margin-left: 30px;}

@@ -1,0 +1,10 @@
+@mainWidth: 1200px;
+@tabletWidth: 768px;
+@wideMobileWidth: 480px;
+@mobileLayout: 320px;
+
+.media-phone(@rules) {
+	@media screen and (max-width: @tabletWidth) {
+		@rules();
+	}
+}
